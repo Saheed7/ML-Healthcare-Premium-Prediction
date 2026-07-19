@@ -99,7 +99,7 @@ jupyter notebook ml_premium_prediction.ipynb   # Run All Cells
 streamlit run main.py
 ```
 
-Open `http://localhost:8501`, enter policyholder details, and click **Predict**.
+Open https://ml-healthcare-premium-predictiongit-kaptain.streamlit.app/, enter policyholder details, and click **Predict**.
 
 > **Data note:** The dataset (10,000 policy records, 15 attributes) is excluded from the repo. Expected schema: age, gender, region, marital status, physical activity, stress level, number of dependants, BMI category, smoking status, employment status, income level, income (lakhs), medical history, insurance plan, and annual premium amount (target).
 
@@ -129,10 +129,10 @@ Artifact-sensitive packages (numpy, scikit-learn, xgboost, joblib) are version-p
 - [ ] Age-segmented models (young vs. rest) driven by residual error analysis
 - [ ] Experiment tracking with MLflow
 - [ ] Dockerized deployment + CI (GitHub Actions)
-- [ ] Live demo on Streamlit Community Cloud
+      
 
 ---
 
 ## Author
 
-**Yakub Kayode Saheed, Ph.D.** — Machine Learning Engineer · [GitHub](https://github.com/Saheed7) · [LinkedIn](https://www.linkedin.com/in/yakub-kayode-saheed-94468672) · [Google Scholar](https://scholar.google.com/citations?user=faYh6iIAAAAJ)
+**Yakub Kayode Saheed, Ph.D.** — Machine Learning/AI Engineer · [GitHub](https://github.com/Saheed7) · [LinkedIn](https://www.linkedin.com/in/yakub-kayode-saheed-94468672) · [Google Scholar](https://scholar.google.com/citations?user=faYh6iIAAAAJ)
